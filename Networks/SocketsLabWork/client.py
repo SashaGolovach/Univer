@@ -14,7 +14,7 @@ def send_commands(conn):
             response = str(conn.recv(1024), "utf-8")
             print(response, end="")
 
-rhost, rport = '127.0.0.1', 12345
+rhost, rport = '127.0.0.1', 1234
 conn = socket.socket()
 conn.connect((rhost, rport))
 print('Connected to server {}:{}'.format(rhost, rport))

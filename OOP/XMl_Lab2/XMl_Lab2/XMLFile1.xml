@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MovieBase>
+  <genre ID="1" GENRE="Comedy">
+    <studio ID="1" STUDIO="20th Century Fox">
+      <movie ID="1"
+             NAME="Deadpool"
+             YEAR="2016"
+             TIME="100">
+      </movie>
+      <movie ID="2"
+             NAME="Bride wars"
+             YEAR="2009"
+             TIME="90">
+      </movie>      
+    </studio>
+    <studio ID="2" STUDIO="Warner Bros. Pictures">
+      <movie ID="1"
+             NAME="The Intern"
+             YEAR="2015"
+             TIME="120">
+      </movie>
+      <movie ID="2"
+             NAME="Miss Congeniality"
+             YEAR="2000"
+             TIME="110">
+      </movie>
+    </studio>
+  </genre>
+  <genre ID="2" GENRE="Adventure">
+    <studio ID="1" STUDIO="20th Century Fox">
+      <movie ID="1"
+             NAME="Miss Peregrine's Home for Peculiar Children"
+             YEAR="2016"
+             TIME="120">
+      </movie>
+      <movie ID="2"
+             NAME="Taken"
+             YEAR="2008"
+             TIME="90">
+      </movie>
+      <movie ID="3"
+             NAME="X-Men"
+             YEAR="2000"
+             TIME="100">
+      </movie>      
+    </studio>
+    <studio ID="2" STUDIO="Walt Disney Pictures">
+      <movie ID="1"
+             NAME="Pirates of the Caribbean: The Curse of the Black Pearl"
+             YEAR="2003"
+             TIME="140">
+      </movie>
+      <movie ID="2"
+             NAME="Maleficent"
+             YEAR="2014"
+             TIME="100">
+      </movie>
+    </studio>
+  </genre>
+  <genre ID="3" GENRE="Drama">
+    <studio ID="1" STUDIO="20th Century Fox">
+      <movie ID="1"
+             NAME="Jojo Rabbit"
+             YEAR="2019"
+             TIME="110">
+      </movie>
+      <movie ID="2"
+             NAME="Gifted"
+             YEAR="2007"
+             TIME="100">
+      </movie>
+    </studio>
+    <studio ID="2" STUDIO="Columbia Pictures">
+      <movie ID="1"
+             NAME="Little Women"
+             YEAR="2019"
+             TIME="140">
+      </movie> 
+    </studio>
+    <studio ID="3" STUDIO="Warner Bros. Pictures">
+      <movie ID="1"
+             NAME="The Judge"
+             YEAR="2014"
+             TIME="140">
+      </movie>
+    </studio> 
+  </genre>
+</MovieBase>

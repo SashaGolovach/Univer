@@ -14,7 +14,7 @@ namespace XMl_Lab2
     public partial class XmlSearch : Form
     {
         private List<Movie> movies = new List<Movie>();
-        public static string path = "C:\\Users\\Admin\\Documents\\program67\\XMl_Lab2\\XMl_Lab2\\XMLFile1.xml";
+        public static string path = "XMLFile1.xml";
         public XmlSearch()
         {
             InitializeComponent();

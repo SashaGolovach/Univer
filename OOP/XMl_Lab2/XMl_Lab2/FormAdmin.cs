@@ -45,11 +45,11 @@ namespace XMl_Lab2
         {
             // Завантаження стилів
             XslCompiledTransform xslt = new XslCompiledTransform();
-            string f1 = "C:\\Users\\Admin\\Documents\\program67\\XMl_Lab2\\XMl_Lab2\\XSLTFile1.xslt";
+            string f1 = "XSLTFile1.xslt";
             xslt.Load(f1);
             // Виконання перетворення і виведення результатів у файл.
-            string f2 = "C:\\Users\\Admin\\Documents\\program67\\XMl_Lab2\\XMl_Lab2\\XMLFile1.xml";
-            string f3 = "C:\\Users\\Admin\\Documents\\program67\\XMl_Lab2\\XMl_Lab2\\XMLFile1.html";
+            string f2 = "XMLFile1.xml";
+            string f3 = "XMLFile1.html";
             xslt.Transform(f2, f3);
         }
 
